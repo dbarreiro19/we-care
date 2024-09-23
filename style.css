@@ -1,0 +1,83 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header Area */
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    margin-right: 23px;
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    background-color: #665AE1;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    border: none;
+    border-radius: 20.5px;
+    cursor: pointer;
+}
+
+/* Main Content */
+.logo-image {
+    display: inline-block;
+    margin-left: 125px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+}
+
+p {
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    background-color: #ADFF00;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
