@@ -18,6 +18,15 @@ header {
     font-weight: 600;
     line-height: 30px;
     cursor: pointer;
+    transition: all .2s;
+}
+
+.link-header:hover {
+    color: #848484;
+}
+
+.link-header:active {
+    color: #515151;
 }
 
 .button-header {
@@ -31,6 +40,15 @@ header {
     border: none;
     border-radius: 20.5px;
     cursor: pointer;
+    transition: all .2s;
+}
+
+.button-header:hover {
+    background-color: #857aff;
+}
+
+.button-header:active {
+    background-color: #574dc7;
 }
 
 /* Main Content */
@@ -80,6 +98,15 @@ section p {
     border-radius: 30px;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all .2s;
+}
+
+.button-main:hover {
+    background-color: #9ae002;
+}
+
+.button-main:active {
+    background-color: #81bc02;
 }
 
 /* @media screen Tablet */
